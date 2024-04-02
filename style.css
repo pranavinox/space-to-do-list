@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing:auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 300px;
+    color: white;
+    transform: translateY(200px);
+}
+
+
+.align-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box input{
+    margin: 10px;
+    height: 30px;
+    color: white;
+    outline: none;
+    background-color: transparent;
+}
+button{
+    padding: 8.5px;
+    border: none;
+    background: black;
+    color: white;
+    margin: 8px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.bvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
